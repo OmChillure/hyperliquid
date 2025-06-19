@@ -1,4 +1,4 @@
-from os import os
+import os
 from typing import Dict, Any, Optional
 
 from eth_account import Account
@@ -619,7 +619,5 @@ def main():
     print("Starting Hyperliquid MCP Server...")
     mcp.run()
 
-
-# Run the server
 if __name__ == "__main__":
     main()

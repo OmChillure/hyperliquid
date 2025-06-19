@@ -1,4 +1,3 @@
 fastmcp
 hyperliquid-python-sdk
 eth-account>=0.9.0
-web3>=6.0.0
