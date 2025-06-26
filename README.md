@@ -16,14 +16,14 @@ A [Model Context Protocol (MCP)] server for interacting with [Hyperliquid DEX](h
 ### From PyPI (Recommended)
 
 ```bash
-pip install hyperliquid-mcp
+pip install -r requirements.txt
 ```
 
 ### From Source
 
 ```bash
 git clone https://github.com/PlayAINetwork/hyperliquid
-cd hyperliquid-mcp
+cd hyperliquid_mcp
 pip install -e .
 ```
 
