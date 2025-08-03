@@ -9,6 +9,7 @@ from hyperliquid.info import Info
 from hyperliquid.utils import constants
 from hyperliquid.utils.types import Cloid
 
+#instance of FastMCP for Hyperliquid MCP
 mcp = FastMCP("hyperliquid-mcp")
 
 def get_base_url() -> str:
