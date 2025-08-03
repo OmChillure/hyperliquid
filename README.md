@@ -37,8 +37,8 @@ If you prefer to run the server directly:
 {
   "mcpServers": {
     "hyperliquid": {
-      "command": "uvx",
-      "args": ["hyperliquid_server"],
+      "command": "python/uvx",
+      "args": ["/path/to/your/hyperliquid/server.py"],
       "env": {
         "HYPERLIQUID_MAIN_ACCOUNT_ADDRESS": "",
         "HYPERLIQUID_API_ACCOUNT_ADDRESS": "",
