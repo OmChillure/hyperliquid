@@ -1,3 +1,33 @@
+Metadata-Version: 2.4
+Name: hl-mcp-server
+Version: 0.1.0
+Summary: Model Context Protocol (MCP) server for Hyperliquid DEX trading
+License: MIT
+Keywords: hyperliquid,mcp,trading,defi,fastmcp
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Financial and Insurance Industry
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Office/Business :: Financial :: Investment
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: fastmcp
+Requires-Dist: hyperliquid-python-sdk
+Requires-Dist: eth-account>=0.11.0
+Provides-Extra: dev
+Requires-Dist: pytest>=7.0; extra == "dev"
+Requires-Dist: pytest-asyncio>=0.21.0; extra == "dev"
+Requires-Dist: black>=23.0; extra == "dev"
+Requires-Dist: flake8>=6.0; extra == "dev"
+Requires-Dist: mypy>=1.0; extra == "dev"
+Dynamic: license-file
+
 # Hyperliquid MCP Server
 
 A [Model Context Protocol (MCP)] server for interacting with [Hyperliquid DEX](https://hyperliquid.xyz/).
@@ -37,8 +67,8 @@ If you prefer to run the server directly:
 {
   "mcpServers": {
     "hyperliquid": {
-      "command": "uvx",            //[pyhton executable]
-      "args": ["hl-mcp-server"],  //alternative[/path/to/your/hyperliquid/server.py]
+      "command": "python/uvx",
+      "args": ["/path/to/your/hyperliquid/server.py"],
       "env": {
         "HYPERLIQUID_MAIN_ACCOUNT_ADDRESS": "",
         "HYPERLIQUID_API_ACCOUNT_ADDRESS": "",
