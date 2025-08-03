@@ -22,7 +22,7 @@ pip install -r requirements.txt
 ### From Source
 
 ```bash
-git clone https://github.com/PlayAINetwork/hyperliquid
+git clone https://github.com/OmChillure/hyperliquid
 cd hyperliquid_mcp
 pip install -e .
 ```
@@ -148,8 +148,3 @@ pip install -e ".[dev]"
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Support
-
-- **Issues**: [GitHub Issues](https://github.com/PlayAINetwork/hyperliquid/issues)
-- **Documentation**: [README](https://github.com/PlayAINetwork/hyperliquid#readme)
