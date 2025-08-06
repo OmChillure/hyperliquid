@@ -1,4 +1,4 @@
-# Hyperliquid MCP Server
+# Hyperliquid MCP
 
 A [Model Context Protocol (MCP)] server for interacting with [Hyperliquid DEX](https://hyperliquid.xyz/).
 
